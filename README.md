@@ -53,13 +53,15 @@ python app2.py
    def euclidean_distance(pointA, pointB):
        return np.linalg.norm(pointA - pointB)
    ```
-
+   
 2. Mouth Aspect Ratio (MAR)**: Determines if the person is yawning - 
    ```python
    def calculate_mouth_ratio(mouth_points):
        ...
        return mar
    ```
+   <img width="499" alt="Screenshot 2024-06-16 at 12 35 58 PM" src="https://github.com/aryana-27/Driver-Drowsiness-Detection-/assets/148103911/16fb0cd0-1456-4605-b40a-a1d0b95ba6ea">
+
 
 3. Eye Aspect Ratio (EAR)**: Determines if the eyes are open, drowsy, or closed - 
    ```python
@@ -67,6 +69,9 @@ python app2.py
        ...
        return ear
    ```
+   <img width="499" alt="Screenshot 2024-06-16 at 12 36 09 PM" src="https://github.com/aryana-27/Driver-Drowsiness-Detection-/assets/148103911/d800c521-466a-4ded-8921-31f2653c12c3">
+   <img width="638" alt="Screenshot 2024-06-16 at 12 35 31 PM" src="https://github.com/aryana-27/Driver-Drowsiness-Detection-/assets/148103911/6d667193-3f01-47f3-9750-727e1dfbf9c5">
+
 
 4. Status Determination**: Decides the status of the driver (Active, Drowsy, Sleeping) - 
    ```python
