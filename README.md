@@ -53,6 +53,8 @@ python app2.py
    def euclidean_distance(pointA, pointB):
        return np.linalg.norm(pointA - pointB)
    ```
+   ![The-face-shape-with-68-landmarks](https://github.com/aryana-27/Driver-Drowsiness-Detection-/assets/148103911/89b7c57d-d53c-4f5a-af3c-e80f3871f631)
+
    
 2. Mouth Aspect Ratio (MAR)**: Determines if the person is yawning - 
    ```python
