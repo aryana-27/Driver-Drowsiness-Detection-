@@ -48,7 +48,7 @@ python app2.py
 
 ### Main Components
 
-1. **Euclidean Distance Calculation**: Computes the distance between two points - 
+1. Euclidean Distance Calculation**: Computes the distance between two points - 
    ```python
    def euclidean_distance(pointA, pointB):
        return np.linalg.norm(pointA - pointB)
